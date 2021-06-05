@@ -1,0 +1,36 @@
+{
+  "name": "eslint-config-skoach",
+  "version": "1.0.0",
+  "description": "Recommended ESLint settings used in Skoach.",
+  "main": "index.js",
+  "scripts": {
+    "test": "link"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myskoach/eslint-config-skoach.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "João Ferreira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/myskoach/eslint-config-skoach/issues"
+  },
+  "homepage": "https://github.com/myskoach/eslint-config-skoach#readme",
+  "dependencies": {
+    "@babel/core": ">= 7.13",
+    "@babel/eslint-parser": ">= 7.13"
+  },
+  "peerDependencies": {
+    "eslint": ">= 7.18",
+    "eslint-plugin-import": ">= 2.22",
+    "eslint-plugin-jest": ">= 24.3",
+    "eslint-plugin-lodash-fp": ">= 2.2.0-a1",
+    "eslint-plugin-react": ">= 7.23",
+    "eslint-plugin-react-hooks": ">= 4.2",
+    "eslint-plugin-regexp": ">= 0.11"
+  }
+}
