@@ -19,3 +19,14 @@ And include it in a `.eslintrc.json` file:
   ]
 }
 ```
+
+If using react:
+
+```json
+{
+  "extends": [
+    "skoach",
+    "skoach/react"
+  ]
+}
+```
