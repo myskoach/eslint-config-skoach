@@ -61,6 +61,7 @@ module.exports = {
       "max": 1
     }],
     "no-undef-init": "error",
+    "no-unused-vars": ["error", {"argsIgnorePattern": "^_"}],
     "no-use-before-define": ["error", "nofunc"],
     "no-var": "error",
     "nonblock-statement-body-position": "error",
